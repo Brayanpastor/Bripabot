@@ -24,7 +24,7 @@ check
 echo -e "\u001b[32mDone checking instalation!" 
 
 echo -e "\u001b[36mCloning reposito!"
-git clone https://github.com/BochilGaming/games-wabot.git games-wabot
+git clone https://github.com/Brayanpastor/Bripabot.git Bripabot
 if [ -d $dir/games-wabot ]; then
   echo -e "\u001b[36mDone clone reposito!"
 else
@@ -33,7 +33,7 @@ else
 fi
 
 echo -e "\u001b[36mChange working directory!"
-cd games-wabot
+cd Bripabot
 main_dir=$(pwd)
 if [ $main_dir != $dir ]; then
   echo -e "\u001b[36mDone change working directory!"
