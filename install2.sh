@@ -25,7 +25,7 @@ echo -e "\u001b[32mDone checking instalation!"
 
 echo -e "\u001b[36mCloning reposito!"
 git clone https://github.com/Brayanpastor/Bripabot.git Bripabot
-if [ -d $dir/games-wabot ]; then
+if [ -d $dir/Bripabot ]; then
   echo -e "\u001b[36mDone clone reposito!"
 else
   echo -e "\u001b[31mFail to clone reposito!"
